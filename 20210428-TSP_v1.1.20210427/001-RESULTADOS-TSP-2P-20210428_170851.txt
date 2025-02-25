@@ -1,0 +1,2035 @@
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 10520
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=105.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[3] testTSPHeuristica()
+Name=NAME : d10512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=10513;Start=1619640531639759;End=1619640533468378;Dif=1828619;ICost=11503.000000;FCost=11503.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME : d10512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=10513;Start=1619640533472539;End=1619640535672958;Dif=2200419;ICost=21098.000000;FCost=21098.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 12520
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=105.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[3] testTSPHeuristica()
+Name=NAME : d12512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=12513;Start=1619640535687986;End=1619640538099840;Dif=2411854;ICost=13644.000000;FCost=13644.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME : d12512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=12513;Start=1619640538104166;End=1619640541237515;Dif=3133349;ICost=25144.000000;FCost=25144.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 14520
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=105.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[3] testTSPHeuristica()
+Name=NAME : d14512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=14513;Start=1619640541253874;End=1619640544480100;Dif=3226226;ICost=16094.000000;FCost=16094.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME : d14512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=14513;Start=1619640544485037;End=1619640547274149;Dif=2789112;ICost=29355.000000;FCost=29355.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 16520
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=105.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[3] testTSPHeuristica()
+Name=NAME : d16512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=16513;Start=1619640547292547;End=1619640551521602;Dif=4229055;ICost=18132.000000;FCost=18132.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME : d16512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=16513;Start=1619640551527239;End=1619640554973449;Dif=3446210;ICost=33436.000000;FCost=33436.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 18519
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=105.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[3] testTSPHeuristica()
+Name=NAME : d18511;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=18512;Start=1619640554993042;End=1619640560326985;Dif=5333943;ICost=20603.000000;FCost=20603.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME : d18511;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=18512;Start=1619640560332980;End=1619640565310332;Dif=4977352;ICost=37563.000000;FCost=37563.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+INIT...
+NumberOfFileRows: 10520
+
+
+NumberOfFileRows: 10520
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Started... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=21098.000000; FinalCost=21098.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Data Processed: InitCost=21098.000000; FinalCost=21098.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Work Thread 1: Job Completed. 
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME : d10512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=10513;Start=1619640565746986;End=1619640568383155;Dif=2636169;ICost=21098.000000;FCost=21098.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+INIT...
+NumberOfFileRows: 12520
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+NumberOfFileRows: 12520
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Started... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=25144.000000; FinalCost=25144.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Data Processed: InitCost=25144.000000; FinalCost=25144.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Work Thread 1: Job Completed. 
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME : d12512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=12513;Start=1619640568601841;End=1619640572357080;Dif=3755239;ICost=25144.000000;FCost=25144.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+INIT...
+NumberOfFileRows: 14520
+
+
+NumberOfFileRows: 14520
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Started... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=29355.000000; FinalCost=29355.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Data Processed: InitCost=29355.000000; FinalCost=29355.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Work Thread 1: Job Completed. 
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME : d14512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=14513;Start=1619640572483057;End=1619640577743155;Dif=5260098;ICost=29355.000000;FCost=29355.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+
+NumberOfFileRows: 16520
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+INIT...
+NumberOfFileRows: 16520
+
+
+Work Thread 1: Started... 
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=33436.000000; FinalCost=33436.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Data Processed: InitCost=33436.000000; FinalCost=33436.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Work Thread 1: Job Completed. 
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME : d16512;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=16513;Start=1619640578124594;End=1619640584753834;Dif=6629240;ICost=33436.000000;FCost=33436.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+
+NumberOfFileRows: 18519
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+INIT...
+NumberOfFileRows: 18519
+
+
+Work Thread 1: Started... 
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=0.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=0.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=0.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=0.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=0.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=0.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=0.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=0.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=0.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=0.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=0.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=0.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=0.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=0.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=0.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=37563.000000; FinalCost=37563.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Data Processed: InitCost=37563.000000; FinalCost=37563.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+
+Work Thread 1: Job Completed. 
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=0;Selected=1;Order=0;Xp=1.000000;Yp=291.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=0;Selected=1;Order=1;Xp=2.000000;Yp=292.000000;Dist=1.000000 
+
+[i=2]: 5007;Oid=0;Selected=1;Order=2;Xp=3.000000;Yp=292.000000;Dist=1.000000 
+
+[i=3]: 5007;Oid=0;Selected=1;Order=3;Xp=4.000000;Yp=292.000000;Dist=1.000000 
+
+[i=4]: 5007;Oid=0;Selected=1;Order=4;Xp=5.000000;Yp=293.000000;Dist=1.000000 
+
+[i=5]: 5007;Oid=0;Selected=1;Order=5;Xp=6.000000;Yp=293.000000;Dist=1.000000 
+
+[i=6]: 5007;Oid=0;Selected=1;Order=6;Xp=7.000000;Yp=293.000000;Dist=1.000000 
+
+[i=7]: 5007;Oid=0;Selected=1;Order=7;Xp=8.000000;Yp=294.000000;Dist=1.000000 
+
+[i=8]: 5007;Oid=0;Selected=1;Order=8;Xp=9.000000;Yp=294.000000;Dist=1.000000 
+
+[i=9]: 5007;Oid=1;Selected=1;Order=9;Xp=10.000000;Yp=294.000000;Dist=1.000000 
+
+[i=10]: 5007;Oid=1;Selected=1;Order=10;Xp=11.000000;Yp=294.000000;Dist=1.000000 
+
+[i=11]: 5007;Oid=1;Selected=1;Order=11;Xp=12.000000;Yp=294.000000;Dist=1.000000 
+
+[i=12]: 5007;Oid=1;Selected=1;Order=12;Xp=13.000000;Yp=294.000000;Dist=1.000000 
+
+[i=13]: 5007;Oid=1;Selected=1;Order=13;Xp=14.000000;Yp=295.000000;Dist=1.000000 
+
+[i=14]: 5007;Oid=1;Selected=1;Order=14;Xp=15.000000;Yp=295.000000;Dist=1.000000 
+
+[i=15]: 5007;Oid=1;Selected=1;Order=15;Xp=16.000000;Yp=295.000000;Dist=1.000000 
+
+[i=16]: 5007;Oid=1;Selected=1;Order=16;Xp=17.000000;Yp=295.000000;Dist=1.000000 
+
+[i=17]: 5007;Oid=1;Selected=1;Order=17;Xp=18.000000;Yp=295.000000;Dist=1.000000 
+
+[i=18]: 5007;Oid=1;Selected=1;Order=18;Xp=19.000000;Yp=295.000000;Dist=1.000000 
+
+[i=19]: 5007;Oid=2;Selected=1;Order=19;Xp=20.000000;Yp=296.000000;Dist=1.000000 
+
+[i=20]: 5007;Oid=2;Selected=1;Order=20;Xp=21.000000;Yp=296.000000;Dist=1.000000 
+
+[i=21]: 5007;Oid=2;Selected=1;Order=21;Xp=22.000000;Yp=296.000000;Dist=1.000000 
+
+[i=22]: 5007;Oid=2;Selected=1;Order=22;Xp=23.000000;Yp=296.000000;Dist=1.000000 
+
+[i=23]: 5007;Oid=2;Selected=1;Order=23;Xp=24.000000;Yp=296.000000;Dist=1.000000 
+
+[i=24]: 5007;Oid=2;Selected=1;Order=24;Xp=25.000000;Yp=296.000000;Dist=1.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME : d18511;Comment=COMMENT : Bundesrepublik Deutschland (mit Ex-DDR) (Bachem/Wottawa);Type=TYPE : TSP;EdgeWeightType=EDGE_WEIGHT_TYPE : EUC_2D;Dimension=18512;Start=1619640585259278;End=1619640594008136;Dif=8748858;ICost=37563.000000;FCost=37563.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+

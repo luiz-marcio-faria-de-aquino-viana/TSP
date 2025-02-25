@@ -1,0 +1,1705 @@
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 13
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-FORCABRUTA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=19.000000 
+
+[i=4]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=43.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000  ..... ] 
+
+TEST TSP-FORCABRUTA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=19.000000 
+
+[i=4]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[0] testTSPForcaBruta()
+Name=NAME:a5;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=6;Start=1619622135346863;End=1619622135348289;Dif=1426;ICost=123.000000;FCost=116.000000 
+
+[1] testTSPForcaBrutaOpenMP()
+Name=NAME:a5;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=6;Start=1619622135348432;End=1619622135349465;Dif=1033;ICost=123.000000;FCost=116.000000 
+
+[3] testTSPHeuristica()
+Name=NAME:a5;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=6;Start=1619622135348368;End=1619622135348372;Dif=4;ICost=123.000000;FCost=123.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME:a5;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=6;Start=1619622135349538;End=1619622135349558;Dif=20;ICost=123.000000;FCost=123.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 14
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-FORCABRUTA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=23.000000 
+
+[i=3]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=19.000000 
+
+[i=5]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=6]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=56.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000  ..... ] 
+
+TEST TSP-FORCABRUTA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=23.000000 
+
+[i=3]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=19.000000 
+
+[i=5]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=6]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[0] testTSPForcaBruta()
+Name=NAME:6;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=7;Start=1619622135358674;End=1619622135373956;Dif=15282;ICost=152.000000;FCost=145.000000 
+
+[1] testTSPForcaBrutaOpenMP()
+Name=NAME:6;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=7;Start=1619622135374068;End=1619622135382349;Dif=8281;ICost=152.000000;FCost=145.000000 
+
+[3] testTSPHeuristica()
+Name=NAME:6;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=7;Start=1619622135374017;End=1619622135374020;Dif=3;ICost=152.000000;FCost=152.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME:6;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=7;Start=1619622135382426;End=1619622135382445;Dif=19;ICost=152.000000;FCost=152.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 15
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-FORCABRUTA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=23.000000 
+
+[i=3]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=4]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=22.000000 
+
+[i=5]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=19.000000 
+
+[i=6]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=63.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000  ..... ] 
+
+TEST TSP-FORCABRUTA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=23.000000 
+
+[i=3]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=4]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=22.000000 
+
+[i=5]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=19.000000 
+
+[i=6]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[0] testTSPForcaBruta()
+Name=NAME:a7;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=8;Start=1619622135389557;End=1619622135549349;Dif=159792;ICost=167.000000;FCost=159.000000 
+
+[1] testTSPForcaBrutaOpenMP()
+Name=NAME:a7;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=8;Start=1619622135549410;End=1619622135626942;Dif=77532;ICost=167.000000;FCost=159.000000 
+
+[3] testTSPHeuristica()
+Name=NAME:a7;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=8;Start=1619622135549385;End=1619622135549387;Dif=2;ICost=167.000000;FCost=167.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME:a7;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=8;Start=1619622135626979;End=1619622135626990;Dif=11;ICost=167.000000;FCost=167.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 16
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-FORCABRUTA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=23.000000 
+
+[i=3]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=4]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=8.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=18.000000 
+
+[i=6]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=19.000000 
+
+[i=7]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=8]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=61.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=8.000000  ..... ] 
+
+TEST TSP-FORCABRUTA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=56.000000 
+
+[i=2]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=3]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=8.000000 
+
+[i=4]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=18.000000 
+
+[i=5]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=8]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=8.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[0] testTSPForcaBruta()
+Name=NAME:a8;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=9;Start=1619622135631463;End=1619622138303767;Dif=2672304;ICost=173.000000;FCost=163.000000 
+
+[1] testTSPForcaBrutaOpenMP()
+Name=NAME:a8;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=9;Start=1619622138303839;End=1619622139744602;Dif=1440763;ICost=173.000000;FCost=170.000000 
+
+[3] testTSPHeuristica()
+Name=NAME:a8;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=9;Start=1619622138303811;End=1619622138303813;Dif=2;ICost=173.000000;FCost=173.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME:a8;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=9;Start=1619622139744655;End=1619622139744668;Dif=13;ICost=173.000000;FCost=173.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_DISABLE
+
+
+
+INIT...
+NumberOfFileRows: 17
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=10;Selected=1;Order=9;Xp=220.000000;Yp=169.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 1; 
+
+
+
+TEST TSP-FORCABRUTA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=33.000000 
+
+[i=2]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=3]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=5]: 5007;Oid=10;Selected=1;Order=9;Xp=220.000000;Yp=169.000000;Dist=8.000000 
+
+[i=6]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=11.000000 
+
+[i=7]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=34.000000 
+
+[i=8]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=9]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=71.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=8.000000 
+
+[i=9]: 5007;Oid=10;Selected=1;Order=9;Xp=220.000000;Yp=169.000000;Dist=11.000000  ..... ] 
+
+TEST TSP-FORCABRUTA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=20.000000 
+
+[i=1]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=56.000000 
+
+[i=2]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=3]: 5007;Oid=10;Selected=1;Order=9;Xp=220.000000;Yp=169.000000;Dist=8.000000 
+
+[i=4]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=11.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=18.000000 
+
+[i=6]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=10.000000 
+
+[i=7]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=8]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=16.000000 
+
+[i=9]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=18.000000  ..... ] 
+
+TEST TSP-HEURISTICA_OPENMP...
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=8.000000 
+
+[i=9]: 5007;Oid=10;Selected=1;Order=9;Xp=220.000000;Yp=169.000000;Dist=11.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[0] testTSPForcaBruta()
+Name=NAME:a9;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=10;Start=1619622139748956;End=1619622204310739;Dif=64561783;ICost=194.000000;FCost=174.000000 
+
+[1] testTSPForcaBrutaOpenMP()
+Name=NAME:a9;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=10;Start=1619622204310823;End=1619622242023253;Dif=37712430;ICost=194.000000;FCost=181.000000 
+
+[3] testTSPHeuristica()
+Name=NAME:a9;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=10;Start=1619622204310792;End=1619622204310794;Dif=2;ICost=194.000000;FCost=194.000000 
+
+[4] testTSPHeuristicaOpenMP()
+Name=NAME:a9;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=10;Start=1619622242023313;End=1619622242023330;Dif=17;ICost=194.000000;FCost=194.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+
+NumberOfFileRows: 13
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+
+
+INIT...
+NumberOfFileRows: 13
+
+Work Thread 1: Started... 
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP FORCABRUTA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=123.000000; FinalCost=123.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+Work Thread 1: Job Finished. 
+
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+Work Thread 1: Job Completed. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=43.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+
+Work Thread 1: Started... 
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000  ..... ] 
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Main Thread 0: Data Processed: InitCost=123.000000; FinalCost=123.000000; 
+
+
+Main Thread 0: Receiving Results... 
+Work Thread 1: Data Processed: InitCost=123.000000; FinalCost=123.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+Work Thread 1: Job Completed. 
+
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[2] testTSPForcaBrutaOpenMPI()
+Name=NAME:a5;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=6;Start=1619622242449542;End=1619622242449794;Dif=252;ICost=123.000000;FCost=123.000000 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME:a5;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=6;Start=1619622242449861;End=1619622242449991;Dif=130;ICost=123.000000;FCost=123.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+NumberOfFileRows: 14
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+INIT...
+NumberOfFileRows: 14
+
+
+Work Thread 1: Started... 
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP FORCABRUTA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=152.000000; FinalCost=152.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+Work Thread 1: Job Completed. 
+
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=56.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+
+Work Thread 1: Started... 
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000  ..... ] 
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Work Thread 1: Job Received... 
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+
+
+Work Thread 1: Data Processed: InitCost=152.000000; FinalCost=152.000000; 
+Main Thread 0: Starting Data Processing... 
+
+
+Main Thread 0: Data Processed: InitCost=152.000000; FinalCost=152.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Work Thread 1: Job Completed. 
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[2] testTSPForcaBrutaOpenMPI()
+Name=NAME:6;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=7;Start=1619622242559282;End=1619622242559822;Dif=540;ICost=152.000000;FCost=152.000000 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME:6;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=7;Start=1619622242559892;End=1619622242560018;Dif=126;ICost=152.000000;FCost=152.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+
+NumberOfFileRows: 15
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+Work Thread 1: Started... 
+
+
+
+
+INIT...
+NumberOfFileRows: 15
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP FORCABRUTA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=167.000000; FinalCost=167.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+Work Thread 1: Job Finished. 
+
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+
+Work Thread 1: Job Completed. 
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=63.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+
+Work Thread 1: Started... 
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000  ..... ] 
+
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+
+Main Thread 0: Data Processed: InitCost=167.000000; FinalCost=167.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+Work Thread 1: Data Processed: InitCost=167.000000; FinalCost=167.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+
+Work Thread 1: Job Completed. 
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[2] testTSPForcaBrutaOpenMPI()
+Name=NAME:a7;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=8;Start=1619622242669005;End=1619622242670521;Dif=1516;ICost=167.000000;FCost=167.000000 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME:a7;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=8;Start=1619622242670596;End=1619622242670723;Dif=127;ICost=167.000000;FCost=167.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+
+NumberOfFileRows: 16
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+RG: 08855128-8 IFP-RJ
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+Work Thread 1: Started... 
+
+
+
+INIT...
+NumberOfFileRows: 16
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP FORCABRUTA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Data Processed: InitCost=173.000000; FinalCost=173.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+Work Thread 1: Job Completed. 
+
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=61.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+
+Work Thread 1: Started... 
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=16.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=10.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=16.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=8.000000 
+
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=8.000000  ..... ] 
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Work Thread 1: Job Received... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Data Processed: InitCost=173.000000; FinalCost=173.000000; 
+
+Main Thread 0: Data Processed: InitCost=173.000000; FinalCost=173.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+
+Work Thread 1: Job Completed. 
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=0.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[2] testTSPForcaBrutaOpenMPI()
+Name=NAME:a8;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=9;Start=1619622242795190;End=1619622242825880;Dif=30690;ICost=173.000000;FCost=173.000000 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME:a8;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=9;Start=1619622242825966;End=1619622242826095;Dif=129;ICost=173.000000;FCost=173.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+
+
+=== DATA_SIZE: 0;
+NUM_OF_THREADS: 2 ===
+
+TSP - SYMMETRIC TRAVELING SALESMAN v1.0.20210427
+
+Partner:
+	COPPE/UFRJ - Universidade Federal do Rio de Janeiro
+	TLMV Consultoria e Sistemas EIRELI
+
+Autor: Luiz Marcio Faria de Aquino Viana, M.Sc.
+DRE: 120048833
+CPF: 024.723.347-10
+RG: 08855128-8 IFP-RJ
+
+NumberOfFileRows: 17
+RankId: 1; NProcs: 2; HostName: est53.tlmv.local; 
+
+Phone: +55-21-99983-7207
+E-mail:
+	lmarcio@cos.ufrj.br
+	luiz.marcio.viana@globo.com
+	luiz.marcio.viana@gmail.com
+
+
+MPI: MPI_ENABLE
+
+
+
+INIT...
+NumberOfFileRows: 17
+
+
+Work Thread 1: Started... 
+
+LOAD DATA...
+
+ENTRADA: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=0.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=0.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=0.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=10;Selected=1;Order=9;Xp=220.000000;Yp=169.000000;Dist=0.000000  ..... ]
+
+
+RankId: 0; NProcs: 2; HostName: est53.tlmv.local; 
+
+
+TEST TSP FORCABRUTA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+Work Thread 1: Job Received... 
+
+
+Work Thread 1: Job Finished. 
+
+
+Work Thread 1: Sending Job Results... 
+
+
+Main Thread 0: Data Processed: InitCost=194.000000; FinalCost=186.000000; 
+
+
+Main Thread 0: Receiving Results... 
+
+
+Work Thread 1: Job Completed. 
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=33.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+
+Work Thread 1: Started... 
+[i=3]: 5007;Oid=6;Selected=1;Order=4;Xp=246.000000;Yp=157.000000;Dist=28.000000 
+
+[i=4]: 5007;Oid=7;Selected=1;Order=5;Xp=236.000000;Yp=169.000000;Dist=10.000000 
+
+[i=5]: 5007;Oid=8;Selected=1;Order=6;Xp=228.000000;Yp=169.000000;Dist=16.000000 
+
+[i=6]: 5007;Oid=10;Selected=1;Order=7;Xp=220.000000;Yp=169.000000;Dist=8.000000 
+
+
+[i=7]: 5007;Oid=4;Selected=1;Order=9;Xp=256.000000;Yp=141.000000;Dist=8.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=11.000000 
+
+[i=9]: 5007;Oid=5;Selected=1;Order=3;Xp=256.000000;Yp=157.000000;Dist=34.000000  ..... ] 
+TEST TSP HEURISTICA-OPENMPI... 
+Main Thread 0: Started... 
+
+
+
+Work Thread 1: Job Received... 
+
+Main Thread 0: Jobs Sent to Workers... 
+
+
+Main Thread 0: Starting Data Processing... 
+
+
+
+Main Thread 0: Data Processed: InitCost=194.000000; FinalCost=194.000000; 
+
+Work Thread 1: Data Processed: InitCost=194.000000; FinalCost=194.000000; 
+
+
+Work Thread 1: Job Finished. 
+
+Main Thread 0: Receiving Results... 
+
+
+
+Work Thread 1: Sending Job Results... 
+
+Main Thread 0: Jobs Received from Worker [1]!
+
+
+Work Thread 1: Job Completed. 
+
+
+Main Thread 0: Jobs Results Received from Workers. 
+
+
+
+
+RESULT: [ 
+
+[i=0]: 5007;Oid=1;Selected=1;Order=0;Xp=288.000000;Yp=149.000000;Dist=0.000000 
+
+[i=1]: 5007;Oid=2;Selected=1;Order=1;Xp=288.000000;Yp=129.000000;Dist=20.000000 
+
+[i=2]: 5007;Oid=3;Selected=1;Order=2;Xp=270.000000;Yp=133.000000;Dist=18.000000 
+
+[i=3]: 5007;Oid=4;Selected=1;Order=3;Xp=256.000000;Yp=141.000000;Dist=16.000000 
+
+[i=4]: 5007;Oid=5;Selected=1;Order=4;Xp=256.000000;Yp=157.000000;Dist=0.000000 
+
+[i=5]: 5007;Oid=6;Selected=1;Order=5;Xp=246.000000;Yp=157.000000;Dist=0.000000 
+
+[i=6]: 5007;Oid=7;Selected=1;Order=6;Xp=236.000000;Yp=169.000000;Dist=0.000000 
+
+[i=7]: 5007;Oid=8;Selected=1;Order=7;Xp=228.000000;Yp=169.000000;Dist=0.000000 
+
+[i=8]: 5007;Oid=9;Selected=1;Order=8;Xp=228.000000;Yp=161.000000;Dist=0.000000 
+
+[i=9]: 5007;Oid=10;Selected=1;Order=9;Xp=220.000000;Yp=169.000000;Dist=0.000000  ..... ] 
+
+SHOW RESULTS...
+
+FINAL RESULT: 
+
+[2] testTSPForcaBrutaOpenMPI()
+Name=NAME:a9;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=10;Start=1619622242943208;End=1619622243106294;Dif=163086;ICost=194.000000;FCost=186.000000 
+
+[5] testTSPHeuristicaOpenMPI()
+Name=NAME:a9;Comment=COMMENT:drilling problem (Ludwig);Type=TYPE:TSP;EdgeWeightType=EDGE_WEIGHT_TYPE:EUC_2D;Dimension=10;Start=1619622243106387;End=1619622243106520;Dif=133;ICost=194.000000;FCost=194.000000 
+
+
+
+TERMINATE...
+
+FINISHED!
+

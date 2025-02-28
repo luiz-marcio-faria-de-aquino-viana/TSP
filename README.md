@@ -32,3 +32,11 @@ OpenMP - URL: https://www.openmp.org/
 OpenMPI - URL: https://www.open-mpi.org/
 
 LNCC - Programa de Verão 2021 - URL: https://www.youtube.com/playlist?list=PL1JkuXNrkXKwSyYollJaUefFqP5AjdZRw
+
+# CONTATO
+
+CONTACT ME, IF YOU NEED HELP OR HAVE ANY QUESTIONS ABOUT THIS ACADEMIC WORK!
+
+Luiz Marcio Faria de Aquino Viana,Pós-D.Sc.
+E-mail: luiz.marcio.viana@gmail.com
+Phone/WhatsApp: +55-21-99983-7207
